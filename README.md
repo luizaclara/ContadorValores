@@ -1,15 +1,17 @@
-#Descrição da Tarefa:
+# Sistema de Contagem de Requisições
 
-Você deve desenvolver um sistema que atenda aos seguintes requisitos:
+Este é um sistema simples que possui uma interface frontend em HTML e um backend para contar quantas vezes um valor enviado foi recebido pelo servidor.
 
-<Frontend>
-Crie uma página HTML que contenha:
-Uma caixa de texto onde o usuário possa inserir um valor (por exemplo, um número).
-Um botão que, quando pressionado, envie o conteúdo da caixa de texto para o servidor.
-Após receber uma resposta do servidor, exiba na página o número de vezes que o valor enviado foi recebido pelo servidor desde que o mesmo foi iniciado.
+## Descrição
 
-<Backend>
-O servidor deve ser capaz de:
-Receber o conteúdo enviado pelo frontend (via requisição HTTP, como POST ou GET).
-Manter uma contagem de quantas vezes cada valor foi recebido. Para isso, é recomendado usar uma estrutura como uma tabela (por exemplo, em um arquivo ou em uma estrutura de dados na memória).
-Retornar o número atualizado de vezes que o valor foi recebido.
+O sistema possui duas partes principais:
+
+### Frontend
+- Uma página HTML com uma caixa de texto onde o usuário pode inserir um valor (por exemplo, um número).
+- Um botão que, ao ser pressionado, envia o valor para o servidor.
+- Após a resposta do servidor, a página exibe o número de vezes que o valor enviado foi recebido desde o início do servidor.
+
+### Backend
+- O servidor recebe o conteúdo enviado pelo frontend via requisição HTTP (GET ou POST).
+- Mantém uma contagem de quantas vezes cada valor foi recebido. Isso é feito usando uma estrutura de dados (como uma tabela ou dicionário) armazenada na memória ou em um arquivo.
+- O servidor retorna a quantidade 
