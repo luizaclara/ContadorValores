@@ -15,3 +15,8 @@ O sistema possui duas partes principais:
 - O servidor recebe o conteúdo enviado pelo frontend via requisição HTTP (GET ou POST).
 - Mantém uma contagem de quantas vezes cada valor foi recebido. Isso é feito usando uma estrutura de dados (como uma tabela ou dicionário) armazenada na memória ou em um arquivo.
 - O servidor retorna a quantidade 
+
+## Tecnologias Utilizadas
+
+- **Frontend**: HTML, JavaScript
+- **Backend**: Python (Flask)
