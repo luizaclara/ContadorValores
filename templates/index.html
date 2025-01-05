@@ -25,6 +25,14 @@
         button {
             width: 100%;
         }
+        .btn-roxo {
+        background-color: #6f42c1; /* Cor roxa */
+        border-color: #6f42c1; /* Cor roxa para a borda */
+        }
+        .btn-roxo:hover {
+            background-color: #5a2e9b; /* Cor de hover para um roxo mais escuro */
+            border-color: #5a2e9b; /* Cor de hover para a borda */
+        }
         #responseMessage {
             margin-top: 20px;
             font-weight: bold;
@@ -41,7 +49,7 @@
                 <label for="value" class="form-label">Digite um valor:</label>
                 <input type="text" class="form-control" id="value" name="value" required>
             </div>
-            <button type="submit" class="btn btn-primary">Enviar</button>
+            <button type="submit" class="btn btn-primary btn-roxo">Enviar</button>
         </form>
         <p id="responseMessage"></p>
     </div>
